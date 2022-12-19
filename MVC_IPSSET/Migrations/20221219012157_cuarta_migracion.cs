@@ -5,7 +5,7 @@
 namespace MVCIPSSET.Migrations
 {
     /// <inheritdoc />
-    public partial class MigracionIncial : Migration
+    public partial class cuartamigracion : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

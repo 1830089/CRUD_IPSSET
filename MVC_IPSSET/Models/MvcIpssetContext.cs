@@ -16,9 +16,21 @@ public partial class MvcIpssetContext : DbContext
     }
 
     public virtual DbSet<Usuario> Usuarios { get; set; }
-    public DbSet<Tipo> Tipo { get; set; }
+    public DbSet<Tipo> Tipos { get; set; }
 
     public DbSet<Movimientos> Movimientos { get; set; }
+
+    public DbSet<Pension> Pensiones { get; set; }
+
+    public DbSet<Estado> Estados { get; set; }
+
+    public DbSet<Tipo_sexo> Tipo_sexo { get; set; }
+
+
+    public DbSet<Personas> Personas { get; set; }
+
+
+
 
 
 
@@ -48,6 +60,8 @@ public partial class MvcIpssetContext : DbContext
         });
 
         OnModelCreatingPartial(modelBuilder);
+
+
     }
 
     partial void OnModelCreatingPartial(ModelBuilder modelBuilder);

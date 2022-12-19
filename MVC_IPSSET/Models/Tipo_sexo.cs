@@ -4,10 +4,10 @@ using System.Collections.Generic;
 
 namespace MVC_IPSSET.Models;
 
-public class Tipo
+public class Tipo_sexo
 {
     public int Id { get; set; }
 
     [Required]
-    public string Nombre { get; set; }
+    public string tipo { get; set; }
 }
