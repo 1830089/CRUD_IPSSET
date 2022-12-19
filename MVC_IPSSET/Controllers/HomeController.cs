@@ -36,6 +36,40 @@ namespace MVC_IPSSET.Controllers
             return RedirectToAction("Inicio","Home");
         }
 
+
+        public ActionResult Eliminar_Persona(int?Id)
+        {
+
+
+
+            return RedirectToAction("Inicio", "Home");
+        }
+
+
+        public ActionResult Editar_Persona()
+        {
+
+
+
+            return View();
+        }
+
+        public IActionResult Agregar_Persona()
+        {
+
+
+
+            return View();
+        }
+
+        public IActionResult Ver_Persona()
+        {
+
+
+
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();

@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\VisualStudio Projects\MVC_IPSSET\MVC_IPSSET
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/VisualStudio Projects/MVC_IPSSET/MVC_IPSSET/Views/Home/Agregar_Persona.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZ3JlZ2FyX1BlcnNvbmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudio Projects/MVC_IPSSET/MVC_IPSSET/Views/Home/Editar_Persona.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0YXJfUGVyc29uYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/VisualStudio Projects/MVC_IPSSET/MVC_IPSSET/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -26,6 +34,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/VisualStudio Projects/MVC_IPSSET/MVC_IPSSET/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudio Projects/MVC_IPSSET/MVC_IPSSET/Views/Home/Ver_Persona.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWZXJfUGVyc29uYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/VisualStudio Projects/MVC_IPSSET/MVC_IPSSET/Views/Index.cshtml]
