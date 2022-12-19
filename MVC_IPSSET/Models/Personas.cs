@@ -46,5 +46,9 @@ public class Personas
     public Estado Estado_civil { get; set; }
 
 
+    [Required]
+    public List<Movimientos> Movimientos { get; set; }
+
+
 
 }
