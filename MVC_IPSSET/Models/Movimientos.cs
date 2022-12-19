@@ -19,5 +19,4 @@ public class Movimientos
     [Required]
     public Tipo Tipo_id { get; set; }
 
-
 }
