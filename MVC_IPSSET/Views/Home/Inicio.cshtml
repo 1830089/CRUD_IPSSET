@@ -5,25 +5,61 @@
 
 <h1>Index</h1>
 
-<p>
-    <a asp-action="">Create New</a>
-</p>
+
+<div>
+    <form class="input-group">
+    <div class="form-outline" style="width:70%;">
+        <input type="search" id="form1" class="form-control" />
+    </div>
+    <button type="button" class="btn btn-primary">
+        <i class="fas fa-search"></i>
+    </button>
+
+    </form>
+</div>
+
+
+<a class="btn btn-outline-success mt-2" asp-controller="Home" asp-action="Agregar_Persona"><i class="fa-solid fa-plus"></i><span>&nbsp Agregar</span></a>
 <table class="table">
     <thead>
         <tr>
             <th>
-                ejemplo
+                N° de pension
             </th>
             <th>
-                ejemplo
+                A Paterno
             </th>
             <th>
-                ejemplo
+                A Materno
             </th>
-            <th></th>
+            <th> Nombre</th>
+            <th>
+
+            </th>
         </tr>
     </thead>
     <tbody>
+
+        <tr>
+            <td>
+                15
+            </td>
+            <td>
+                Torres
+            </td>
+            <td>
+                Grimaldo
+            </td>
+            <td>
+                Juan José
+            </td>
+            <td>
+                <a class="btn btn-outline-warning" data-bs-toggle="tooltip" data-bs-placement="top" title="Editar" asp-controller="Home" asp-action="Editar_Persona" asp-route-id=""><i class="fa-solid fa-pen-to-square"></i></a> |
+                
+                <a class="btn btn-outline-info" data-bs-toggle="tooltip" data-bs-placement="top" title="Ver" asp-controller="Home" asp-action="Ver_Persona" asp-route-id=""><i class="fa-solid fa-eye"></i></a> |
+                <a class="btn btn-outline-danger" data-bs-toggle="tooltip" data-bs-placement="top" title="Eliminar" asp-controller="Home" asp-action="Eliminar_Persona" asp-route-id=""><i class="fa-solid fa-trash-can"></i></a>
+            </td>
+        </tr>
     </tbody>
 </table>
 
